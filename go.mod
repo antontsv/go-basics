@@ -1,0 +1,1 @@
+module github.com/antontsv/go-basics
