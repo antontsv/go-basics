@@ -9,6 +9,10 @@ go run main.go
 
 you can also try a version in [Go playground](https://go.dev/play/p/7AhqDGdC9D5)
 
+In case you want to see similar layout in other language (for side-by-side
+comparison):
+- [Java](https://github.com/antontsv/java-basics)
+
 ## Reasons
 
 I switch between different languages often.

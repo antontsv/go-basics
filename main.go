@@ -226,7 +226,7 @@ loop:
 	}
 	fmt.Println("Checking strings.Contains() =>", strings.Contains(s, "llo"))     // true
 	fmt.Println("Checking strings.HasPrefix() =>", strings.HasPrefix(s, "Hello")) // true
-	fmt.Println("Checking strings.HsSuffix() =>", strings.HasSuffix(s, "界"))      // true
+	fmt.Println("Checking strings.HasSuffix() =>", strings.HasSuffix(s, "界"))     // true
 	fmt.Println("Checking strings.Join() =>", strings.Join([]string{"Hello", "World"}, " "))
 	sb := strings.Builder{}
 	_, err := sb.WriteString("Building formatted string")
