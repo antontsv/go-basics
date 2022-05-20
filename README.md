@@ -1,6 +1,6 @@
 # GO basics
 
-This repository has all-in-one `main.go` that demos basic data structures, syntax, style and features of go programming language 1.x
+This repository has all-in-one [main.go](./main.go) that demos basic data structures, syntax, style and features of go programming language 1.x
 
 ```sh
 # if you want to run it (to make sure it all valid)
