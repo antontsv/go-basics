@@ -48,7 +48,7 @@ func main() {
 	dfs(3)
 
 	fmt.Printf("\nnext up:\n")
-	// One dimentional lists
+	// One dimensional lists
 	fmt.Println("*** Lists demo ***")
 	listOne := make([]int, 2)    // empty slice with len=2, init to default [0 0]
 	listTwo := []int{3, 1, 2}    // definition with values
@@ -78,7 +78,7 @@ func main() {
 	fmt.Println("Copy helps to fill isolated slice:", destList, listTwo)
 
 	fmt.Printf("\nnext up:\n")
-	// Multi dimentional lists (matrix)
+	// Multi dimensional lists (matrix)
 	fmt.Println("*** Multidimensional lists demo ***")
 	matrix := [][]int{{1, 2, 3}, {4, 5, 6}}
 	for r := range matrix {
@@ -123,7 +123,7 @@ func main() {
 	mapThree[[2]int{1, 3}] = struct{}{} // define (1,3) to be added to the map
 	k := [2]int{1, 3}
 	if _, ok := mapThree[k]; ok {
-		fmt.Printf("Map entry with complex key %v is prerent!\n", k)
+		fmt.Printf("Map entry with complex key %v is present!\n", k)
 	}
 	delete(mapThree, k) // delete key from map, also can delete(mapThree, [2]int{1, 3})
 	if _, ok := mapThree[k]; !ok {
@@ -144,7 +144,7 @@ func main() {
 	for len(queue) > 0 {
 		fmt.Printf("%d...", queue[0])
 		queue = queue[1:]
-		// You pop multiple elements, and reslice once. Can be used in BFS traversal.
+		// You pop multiple elements, and re-slice once. Can be used in BFS traversal.
 		//queue[3:] means indexes 3,4,5,6...up to len(queue), i.e. queue[3:len(queue)]
 	}
 	fmt.Println("queue is now empty")
@@ -234,7 +234,7 @@ loop:
 		fmt.Printf("error writing string: %v", err)
 	}
 	fmt.Fprintf(&sb, " with some numbers: %6.2f and date: ", 12.5)
-	// conversion to byte slice if not neccesary (can use WriteString),
+	//conversion to byte slice is not necessary (can use WriteString),
 	//just demo of Write using bytes
 	sb.Write([]byte(time.Now().Format("Mon Jan 02")))
 	fmt.Println(sb.String())

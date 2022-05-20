@@ -7,19 +7,20 @@ This repository has all-in-one `main.go` that demos basic data structures, synta
 go run main.go
 ```
 
-you can also try a version in [Go playground](https://go.dev/play/p/7AhqDGdC9D5)
+you can also try a version in [Go playground](https://go.dev/play/p/c_VuwywumeY)
 
 In case you want to see similar layout in other language (for side-by-side
 comparison):
 - [Java](https://github.com/antontsv/java-basics)
+- [Python](https://github.com/antontsv/python-basics)
 
 ## Reasons
 
 I switch between different languages often.
 
-Main reason I have created this file is to serve as a quick refresher or cheatsheet for go.
+Main reason I have created this file is to serve as a quick refresher or cheat sheet for go.
 
-Most high-level languages have similar features: variables, common datatypes, conditional statements, loops, functions.
+Most high-level languages have similar features: variables, common data types, conditional statements, loops, functions.
 
 Yes, there are a ton of cheat sheets in existence:
 - some are just lacking examples
