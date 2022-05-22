@@ -1,4 +1,4 @@
-# GO basics
+# Go basics
 
 This repository has all-in-one [main.go](./main.go) that demos basic data structures, syntax, style and features of go programming language 1.x
 
@@ -11,8 +11,8 @@ you can also try a version in [Go playground](https://go.dev/play/p/c_VuwywumeY)
 
 In case you want to see similar layout in other language (for side-by-side
 comparison):
-- [Java](https://github.com/antontsv/java-basics)
-- [Python](https://github.com/antontsv/python-basics)
+- [Java](https://github.com/antontsv/java-basics/blob/main/Showcase.java)
+- [Python](https://github.com/antontsv/python-basics/blob/main/main.py)
 
 ## Reasons
 
